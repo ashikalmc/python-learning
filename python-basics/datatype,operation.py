@@ -7,7 +7,8 @@ print(book)
 print(friction)
 print(type(friction))
 
-#Arthimatic Operation
+
+#Arthimatic Operator
 a = 25
 b = 55
 sum = a+b
@@ -17,7 +18,7 @@ print("The Sum of two number:",a * b)
 print("The Sum of two number:",a / b)
 print("The Sum of two number:",a % b)
 
-#Relational Operation
+#Relational Operator
 firstnum = input("enter you firstnum:")
 secondnum = input("enter you secondnum:")
 num = firstnum == secondnum
@@ -79,3 +80,4 @@ print(area)
 a = int(input("enter first number:"))
 b = int(input("enter second number:"))
 print(a >= b)
+
