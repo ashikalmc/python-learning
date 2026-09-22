@@ -68,6 +68,8 @@ print(favFlower)
 
 #Q3 WAP to find factorial of n (n is the parameter)
 def fact(n):
-  factorial = n*fact
-  print(factorial)
-fact()
+  if  n <= 1:
+   return n
+  else:
+    return fact(n - 1) + fact(n - 2)
+print(fact(2))
