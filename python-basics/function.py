@@ -67,9 +67,30 @@ def flower(list):
 print(favFlower)
 
 #Q3 WAP to find factorial of n (n is the parameter)
-def fact(n):
-  if  n <= 1:
-   return n
+
+def cal_fact(n):
+   fact =1
+   for i in range(1,1+n):
+     fact *=  i
+     print(fact)
+
+cal_fact(5)
+cal_fact(7)
+
+#Q4 convert the usd value in nrs
+
+def converter(usd_val):
+  nrs_val = 153.08
+  print(usd_val,"usd =",nrs_val)
+        
+converter(1)
+
+#WAP to check wheather a number is odd or even by using a function
+def check(num):
+  if(num%2==0):
+   print("even number",num)
   else:
-    return fact(n - 1) + fact(n - 2)
-print(fact(2))
+    print("odd number",num)
+
+check(5)
+check(6)
