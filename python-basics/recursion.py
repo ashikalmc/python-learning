@@ -57,7 +57,5 @@ def print_list(list,idx=0):
   print(list[idx])
   print_list(list,idx+1)
 
-
-
 color = ["red","orange","yellow"]
 print_list(color)
