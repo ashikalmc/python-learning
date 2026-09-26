@@ -1,0 +1,2 @@
+Hello EveryOne 
+I am practice file I\o using Python.
